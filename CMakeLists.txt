@@ -7,3 +7,6 @@ add_executable(ReverseLinkedList ${SOURCE_FILES})
 
 set(SOURCE_FILES ConstTest.cpp)
 add_executable(ConstTest ${SOURCE_FILES})
+
+set(SOURCE_FILES HeapSort.cpp)
+add_executable(HeapSort ${SOURCE_FILES})
