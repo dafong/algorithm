@@ -10,3 +10,6 @@ add_executable(ConstTest ${SOURCE_FILES})
 
 set(SOURCE_FILES HeapSort.cpp)
 add_executable(HeapSort ${SOURCE_FILES})
+
+set(SOURCE_FILES QuickSort.cpp)
+add_executable(QuickSort ${SOURCE_FILES})
