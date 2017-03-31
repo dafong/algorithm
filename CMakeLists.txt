@@ -13,3 +13,6 @@ add_executable(HeapSort ${SOURCE_FILES})
 
 set(SOURCE_FILES QuickSort.cpp)
 add_executable(QuickSort ${SOURCE_FILES})
+
+set(SOURCE_FILES MergeSort.cpp)
+add_executable(MergeSort ${SOURCE_FILES})
