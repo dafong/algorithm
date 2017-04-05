@@ -25,6 +25,20 @@ Node *reverse(Node *head){
     return nhead;
 }
 
+Node *reverseUseLoop(Node *head){
+    Node *tail = head;
+    Node *prev = NULL;
+    Node *temp = NULL;
+    while(tail->next != NULL){
+        temp = tail;
+        tail = tail->next;
+        temp->next = prev;
+        prev = temp;
+    }
+    tail->next = prev;
+    return tail;
+}
+
 int main() {
     Node *head = NULL;
     Node *curr = NULL;
@@ -48,7 +62,7 @@ int main() {
         curr = curr->next;
     }
     printf("%s\n","-----------------after reverse:");
-    Node *nhead = reverse(head);
+    Node *nhead = reverseUseLoop(head);
     curr = nhead;
 
     while(curr){

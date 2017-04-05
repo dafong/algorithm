@@ -27,6 +27,10 @@ int PARTITION(vector<int> &a,int p,int r){
     return q+1;
 }
 
+int RANDOMIZED_PARTITION(vector<int> &a,int p ,int r){
+
+}
+
 void QUICK_SORT(vector<int> &arr,int p,int r){
     if(p < r){
         int q = PARTITION(arr,p,r);

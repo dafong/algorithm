@@ -16,3 +16,9 @@ add_executable(QuickSort ${SOURCE_FILES})
 
 set(SOURCE_FILES MergeSort.cpp)
 add_executable(MergeSort ${SOURCE_FILES})
+
+set(SOURCE_FILES RandomSelect.cpp)
+add_executable(RandomSelect ${SOURCE_FILES})
+
+set(SOURCE_FILES BinaryTree.cpp)
+add_executable(BinaryTree ${SOURCE_FILES})
