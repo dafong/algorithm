@@ -22,3 +22,6 @@ add_executable(RandomSelect ${SOURCE_FILES})
 
 set(SOURCE_FILES BinaryTree.cpp)
 add_executable(BinaryTree ${SOURCE_FILES})
+
+set(SOURCE_FILES LIS.cpp)
+add_executable(LIS ${SOURCE_FILES})
