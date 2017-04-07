@@ -25,3 +25,12 @@ add_executable(BinaryTree ${SOURCE_FILES})
 
 set(SOURCE_FILES LIS.cpp)
 add_executable(LIS ${SOURCE_FILES})
+
+set(SOURCE_FILES LCS.cpp)
+add_executable(LCS ${SOURCE_FILES})
+
+set(SOURCE_FILES CutRob.cpp)
+add_executable(CutRob ${SOURCE_FILES})
+
+set(SOURCE_FILES MatrixChainOrder.cpp)
+add_executable(MatrixChainOrder.cpp ${SOURCE_FILES})
