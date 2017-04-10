@@ -20,7 +20,7 @@ add_executable(MergeSort ${SOURCE_FILES})
 set(SOURCE_FILES RandomSelect.cpp)
 add_executable(RandomSelect ${SOURCE_FILES})
 
-set(SOURCE_FILES BinaryTree.cpp)
+set(SOURCE_FILES BinaryTree.cpp Knapsack.cpp)
 add_executable(BinaryTree ${SOURCE_FILES})
 
 set(SOURCE_FILES LIS.cpp)
@@ -34,3 +34,6 @@ add_executable(CutRob ${SOURCE_FILES})
 
 set(SOURCE_FILES MatrixChainOrder.cpp)
 add_executable(MatrixChainOrder.cpp ${SOURCE_FILES})
+
+set(SOURCE_FILES Knapsack.cpp)
+add_executable(Knapsack ${SOURCE_FILES})
