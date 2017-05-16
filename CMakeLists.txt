@@ -37,3 +37,6 @@ add_executable(MatrixChainOrder.cpp ${SOURCE_FILES})
 
 set(SOURCE_FILES Knapsack.cpp)
 add_executable(Knapsack ${SOURCE_FILES})
+
+set(SOURCE_FILES Graph.cpp)
+add_executable(Graph ${SOURCE_FILES})
